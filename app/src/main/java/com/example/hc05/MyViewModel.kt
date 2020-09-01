@@ -55,7 +55,7 @@ class MyViewModel : ViewModel() {
              indexstartbyte = readResult.indexOf("85")
 //            readResult.removeAt(indexstartbyte)
             if (readResult[indexstartbyte + 1] == "63") {         //命令
-                
+
             } else {
                 delRangeofArrayData(readResult,indexstartbyte,1)
             }
